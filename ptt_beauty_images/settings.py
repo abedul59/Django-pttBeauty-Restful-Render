@@ -25,7 +25,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-e@ex+0^-fm6@glm1zm=$w!8=5#w7-*j)#rs$==j-4-%r!d32lj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
+DEBUG = True
+#'RENDER' not in os.environ
 
 # https://docs.djangoproject.com/en/3.0/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
