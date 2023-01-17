@@ -64,7 +64,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3030',
+    'https://react-ptt-beauty.vercel.app',
 ]
 
 
